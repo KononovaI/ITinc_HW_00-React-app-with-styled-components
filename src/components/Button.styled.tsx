@@ -16,6 +16,7 @@ export const StyledButton = styled.button`
   //Inter Bold
   //Apakšveids gaišai pogai
   border-radius: 5px;
+	border: 2px solid #4e71fe;
   width: 86px;
   height: 30px;
   font-family: "Inter", sans-serif;
@@ -24,4 +25,9 @@ export const StyledButton = styled.button`
   line-height: 2;
   color: #fff;
   background: #4e71fe;
+`
+
+export const LightStyledButton = styled(StyledButton)`
+	background: transparent;
+	color: #4e71fe;
 `

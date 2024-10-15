@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Rectangle } from './components/Rectangle.styled';
 import { Title } from './components/Title.styled';
 import { Text } from './components/Text.styled';
-import { ButtonsArea, StyledButton } from './components/Button.styled';
+import { ButtonsArea, StyledButton, LightStyledButton } from './components/Button.styled';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Text>Faucibus. Faucibus. Sit sit sapien sit tempusrisu ut. Sit molestie ornare in venen.</Text>
         <ButtonsArea>
           <StyledButton>See more</StyledButton>
-          <StyledButton>Save</StyledButton>
+          <LightStyledButton>Save</LightStyledButton>
         </ButtonsArea>
       </Card>
     </div>
