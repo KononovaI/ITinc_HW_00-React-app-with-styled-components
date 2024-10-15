@@ -1,11 +1,10 @@
 import { styled } from "styled-components"
 
-
 export const ButtonsArea = styled.div`
   display: flex;
   gap: 12px;
-  margin-left: 20px;
-  margin-bottom: 22px;
+  padding-left: 20px;
+  padding-bottom: 22px;
 
   button {
     cursor: pointer;
@@ -13,8 +12,6 @@ export const ButtonsArea = styled.div`
 `
 
 export const StyledButton = styled.button`
-  //Inter Bold
-  //Apakšveids gaišai pogai
   border-radius: 5px;
 	border: 2px solid #4e71fe;
   width: 86px;
@@ -25,6 +22,9 @@ export const StyledButton = styled.button`
   line-height: 2;
   color: #fff;
   background: #4e71fe;
+	&:hover {
+		background-color: #4b45456a;
+	}
 `
 
 export const LightStyledButton = styled(StyledButton)`
